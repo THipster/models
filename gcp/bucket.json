@@ -1,0 +1,12 @@
+{
+    "dependencies": [],
+    "attributes":{
+        "region": {
+            "optional": true,
+            "default": "euw"
+        }
+    },
+    "cdk_provider":"test_provider",
+    "cdk_name":"test_name",
+    "cdk_class":"test_class"
+}
