@@ -7,6 +7,6 @@
         }
     },
     "cdk_provider":"test_provider",
-    "cdk_name":"test_name",
+    "cdk_module":"test_module",
     "cdk_class":"test_class"
 }
