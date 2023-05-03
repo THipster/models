@@ -6,7 +6,7 @@
             "default": "euw"
         }
     },
-    "cdk_provider":"test_provider",
-    "cdk_module":"test_module",
-    "cdk_class":"bucket_class"
+    "cdk_provider":"cdktf_cdktf_provider_google",
+    "cdk_module":"storage_bucket",
+    "cdk_class":"StorageBucket"
 }
