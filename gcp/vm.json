@@ -1,5 +1,7 @@
 {
-    "dependencies": [ "gcp/network" ],
+    "dependencies": { 
+        "network": "gcp/network" 
+    },
     "attributes":{
         "region": {
             "optional": true,
