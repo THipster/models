@@ -3,9 +3,12 @@
     "attributes":{
         "region": {
             "optional": true,
-            "default": "euw"
+            "default": "euw",
+            "cdk_key": "location"
         }
     },
+    "cdk_name_key": "name",
+
     "cdk_provider":"test_provider",
     "cdk_module":"test_module",
     "cdk_class":"bucket_class"

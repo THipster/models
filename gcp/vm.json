@@ -5,12 +5,15 @@
     "attributes":{
         "region": {
             "optional": true,
-            "default": "euw"
+            "default": "euw",
+            "cdk_key": "location"
         },
         "type": {
             "optional": false
         }
     },
+    "cdk_name_key": "name",
+
     "cdk_provider":"test_provider",
     "cdk_module":"test_module",
     "cdk_class":"vm_class"
