@@ -9,7 +9,8 @@
             "cdk_key": "location"
         },
         "type": {
-            "optional": false
+            "optional": false,
+            "cdk_key": "type"
         }
     },
     "cdk_name_key": "name",
