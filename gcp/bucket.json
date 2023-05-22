@@ -1,9 +1,16 @@
 {
     "dependencies": {},
+    "internalObjects": {
+        "cors": {
+            "resource" : "bucket_cors",
+            "is_list": true,
+            "default": {}
+        }
+    },
     "attributes":{
         "region": {
             "optional": true,
-            "default": "europe-west1",
+            "default": "euw",
             "cdk_key": "location"
         }
     },

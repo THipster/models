@@ -2,6 +2,7 @@
     "dependencies": { 
         "network": "gcp/network" 
     },
+    "internalObjects": {},
     "attributes":{
         "region": {
             "optional": true,
