@@ -2,7 +2,7 @@
     "dependencies": {},
     "internalObjects": {
         "cors": {
-            "resource" : "bucket_cors",
+            "resource" : "gcp/bucket_cors",
             "is_list": true,
             "default": {}
         }
