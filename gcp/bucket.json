@@ -11,7 +11,9 @@
         "region": {
             "optional": true,
             "default": "euw",
-            "cdk_key": "location"
+            "cdk_key": "location",
+            "var_type": "str",
+            "is_list": false
         }
     },
     "cdk_name_key": "name",
