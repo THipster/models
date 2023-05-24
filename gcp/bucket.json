@@ -3,8 +3,9 @@
     "internalObjects": {
         "cors": {
             "resource" : "gcp/bucket_cors",
-            "is_list": true,
+            "var_type": "list[StorageBucketCors]",
             "default": {}
+
         }
     },
     "attributes":{
@@ -12,8 +13,7 @@
             "optional": true,
             "default": "euw",
             "cdk_key": "location",
-            "var_type": "str",
-            "is_list": false
+            "var_type": "str"
         }
     },
     "cdk_name_key": "name",

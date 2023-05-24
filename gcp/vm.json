@@ -10,14 +10,12 @@
             "optional": true,
             "default": "euw",
             "cdk_key": "location",
-            "var_type": "str",
-            "is_list": false
+            "var_type": "str"
         },
         "type": {
             "optional": false,
             "cdk_key": "type",
-            "var_type": "str",
-            "is_list": false
+            "var_type": "str"
         }
     },
     "cdk_name_key": "name",
