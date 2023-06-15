@@ -1,3 +1,4 @@
 {
-    "name" : "gcp"
+    "name" : "example",
+    "model_folder": "gcp"
 }
