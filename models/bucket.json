@@ -4,7 +4,9 @@
         "cors": {
             "resource" : "gcp/bucket_cors",
             "is_list": true,
-            "default": {}
+            "defaults": [{
+                "maxAge": 11
+            }]
         }
     },
     "attributes":{
