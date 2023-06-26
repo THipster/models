@@ -1,0 +1,98 @@
+{
+    "dependencies": {
+        "group": {
+            "resource": "computeInstanceGroupManager",
+            "defaults": [], 
+            "cdk_key": "group", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "internalObjects": {}, 
+    "attributes": {
+        "balancing_mode": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "balancing_mode", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "capacity_scaler": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "capacity_scaler", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_connections": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_connections", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_connections_per_endpoint": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_connections_per_endpoint", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_connections_per_instance": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_connections_per_instance", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_rate": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_rate", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_rate_per_endpoint": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_rate_per_endpoint", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_rate_per_instance": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_rate_per_instance", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_utilization": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_utilization", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceBackend"
+}

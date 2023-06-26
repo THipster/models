@@ -1,0 +1,67 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "initialize_params": {
+            "resource": "computeInstance/ComputeInstanceBootDiskInitializeParams", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "initialize_params", 
+            "var_type": "ComputeInstanceBootDiskInitializeParams", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "auto_delete": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "auto_delete", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "device_name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "device_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "disk_encryption_key_raw": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "disk_encryption_key_raw", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "kms_key_self_link": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "kms_key_self_link", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "mode": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "mode", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance", 
+    "cdk_class": "ComputeInstanceBootDisk"
+}

@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "name": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "data": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "data", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceLocalityLbPoliciesCustomPolicy"
+}

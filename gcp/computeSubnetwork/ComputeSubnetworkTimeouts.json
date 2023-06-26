@@ -1,0 +1,33 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "create": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "create", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "delete": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "delete", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "update": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "update", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_subnetwork", 
+    "cdk_class": "ComputeSubnetworkTimeouts"
+}

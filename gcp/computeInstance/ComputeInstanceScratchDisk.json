@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "interface": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "interface", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "size": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "size", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance", 
+    "cdk_class": "ComputeInstanceScratchDisk"
+}

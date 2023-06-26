@@ -1,0 +1,145 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "version": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerVersion", 
+            "optional": false, 
+            "defaults": [], 
+            "cdk_key": "version", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceGroupManagerVersion]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "auto_healing_policies": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerAutoHealingPolicies", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "auto_healing_policies", 
+            "var_type": "ComputeInstanceGroupManagerAutoHealingPolicies", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "named_port": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerNamedPort", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "named_port", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceGroupManagerNamedPort]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "stateful_disk": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerStatefulDisk", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "stateful_disk", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceGroupManagerStatefulDisk]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeInstanceGroupManagerTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "update_policy": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerUpdatePolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "update_policy", 
+            "var_type": "ComputeInstanceGroupManagerUpdatePolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "base_instance_name": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "base_instance_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "list_managed_instances_results": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "list_managed_instances_results", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "target_pools": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "target_pools", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "target_size": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "target_size", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "wait_for_instances": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "wait_for_instances", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "wait_for_instances_status": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "wait_for_instances_status", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "region": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "zone", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManager", 
+    "cdk_name_key": "name"
+}

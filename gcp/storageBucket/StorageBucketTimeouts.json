@@ -1,0 +1,33 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "create": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "create", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "read": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "read", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "update": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "update", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "storage_bucket", 
+    "cdk_class": "StorageBucketTimeouts"
+}

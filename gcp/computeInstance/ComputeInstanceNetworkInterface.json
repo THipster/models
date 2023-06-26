@@ -1,0 +1,93 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "access_config": {
+            "resource": "computeInstance/ComputeInstanceNetworkInterfaceAccessConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "access_config", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceNetworkInterfaceAccessConfig]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "alias_ip_range": {
+            "resource": "computeInstance/ComputeInstanceNetworkInterfaceAliasIpRange", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "alias_ip_range", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceNetworkInterfaceAliasIpRange]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "ipv6_access_config": {
+            "resource": "computeInstance/ComputeInstanceNetworkInterfaceIpv6AccessConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "ipv6_access_config", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceNetworkInterfaceIpv6AccessConfig]]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "network": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "network", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "network_ip": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "network_ip", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "nic_type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "nic_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "queue_count": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "queue_count", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "stack_type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "stack_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "subnetwork": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "subnetwork", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "subnetwork_project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "subnetwork_project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance", 
+    "cdk_class": "ComputeInstanceNetworkInterface"
+}

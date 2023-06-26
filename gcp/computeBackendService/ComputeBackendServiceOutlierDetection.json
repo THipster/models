@@ -1,0 +1,100 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "base_ejection_time": {
+            "resource": "computeBackendService/ComputeBackendServiceOutlierDetectionBaseEjectionTime", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "base_ejection_time", 
+            "var_type": "ComputeBackendServiceOutlierDetectionBaseEjectionTime", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "interval": {
+            "resource": "computeBackendService/ComputeBackendServiceOutlierDetectionInterval", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "interval", 
+            "var_type": "ComputeBackendServiceOutlierDetectionInterval", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "consecutive_errors": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "consecutive_errors", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "consecutive_gateway_failure": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "consecutive_gateway_failure", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "enforcing_consecutive_errors": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "enforcing_consecutive_errors", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "enforcing_consecutive_gateway_failure": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "enforcing_consecutive_gateway_failure", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "enforcing_success_rate": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "enforcing_success_rate", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_ejection_percent": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_ejection_percent", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "success_rate_minimum_hosts": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "success_rate_minimum_hosts", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "success_rate_request_volume": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "success_rate_request_volume", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "success_rate_stdev_factor": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "success_rate_stdev_factor", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceOutlierDetection"
+}

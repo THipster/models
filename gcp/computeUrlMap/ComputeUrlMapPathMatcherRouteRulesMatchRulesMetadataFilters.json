@@ -1,0 +1,27 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "filter_labels": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels", 
+            "optional": false, 
+            "defaults": [], 
+            "cdk_key": "filter_labels", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels]]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "filter_match_criteria": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "filter_match_criteria", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters"
+}

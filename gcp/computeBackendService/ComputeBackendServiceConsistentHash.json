@@ -1,0 +1,35 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "http_cookie": {
+            "resource": "computeBackendService/ComputeBackendServiceConsistentHashHttpCookie", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "http_cookie", 
+            "var_type": "ComputeBackendServiceConsistentHashHttpCookie", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "http_header_name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "http_header_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "minimum_ring_size": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "minimum_ring_size", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceConsistentHash"
+}

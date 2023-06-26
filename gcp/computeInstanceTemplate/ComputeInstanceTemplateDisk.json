@@ -1,0 +1,149 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "disk_encryption_key": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateDiskDiskEncryptionKey", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "disk_encryption_key", 
+            "var_type": "ComputeInstanceTemplateDiskDiskEncryptionKey", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_image_encryption_key": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateDiskSourceImageEncryptionKey", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "source_image_encryption_key", 
+            "var_type": "ComputeInstanceTemplateDiskSourceImageEncryptionKey", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_snapshot_encryption_key": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateDiskSourceSnapshotEncryptionKey", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "source_snapshot_encryption_key", 
+            "var_type": "ComputeInstanceTemplateDiskSourceSnapshotEncryptionKey", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "auto_delete": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "auto_delete", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "boot": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "boot", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "device_name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "device_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "disk_name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "disk_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "disk_size_gb": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "disk_size_gb", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "disk_type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "disk_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "interface": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "interface", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "labels": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "labels", 
+            "var_type": "typing.Mapping[str]", 
+            "is_list": false, 
+            "is_dict": true
+        }, 
+        "mode": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "mode", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "resource_policies": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "resource_policies", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "source": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_image": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_image", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_snapshot": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_snapshot", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_template", 
+    "cdk_class": "ComputeInstanceTemplateDisk"
+}

@@ -1,0 +1,134 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "log_config": {
+            "resource": "computeSubnetwork/ComputeSubnetworkLogConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "log_config", 
+            "var_type": "ComputeSubnetworkLogConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "secondary_ip_range": {
+            "resource": "computeSubnetwork/ComputeSubnetworkSecondaryIpRange", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "secondary_ip_range", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeSubnetworkSecondaryIpRange]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeSubnetwork/ComputeSubnetworkTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeSubnetworkTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "ip_cidr_range": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "ip_cidr_range", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "network": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "network", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "ipv6_access_type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "ipv6_access_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "private_ip_google_access": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "private_ip_google_access", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "private_ipv6_google_access": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "private_ipv6_google_access", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "purpose": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "purpose", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "region": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "region", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "role": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "role", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "stack_type": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "stack_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_subnetwork", 
+    "cdk_class": "ComputeSubnetwork", 
+    "cdk_name_key": "name"
+}

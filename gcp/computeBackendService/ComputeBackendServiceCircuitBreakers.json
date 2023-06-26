@@ -1,0 +1,49 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "max_connections": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_connections", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_pending_requests": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_pending_requests", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_requests": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_requests", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_requests_per_connection": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_requests_per_connection", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_retries": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_retries", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceCircuitBreakers"
+}

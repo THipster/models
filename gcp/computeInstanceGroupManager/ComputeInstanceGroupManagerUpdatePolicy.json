@@ -1,0 +1,73 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "minimal_action": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "minimal_action", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "type": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_surge_fixed": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_surge_fixed", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_surge_percent": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_surge_percent", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_unavailable_fixed": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_unavailable_fixed", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_unavailable_percent": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_unavailable_percent", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "most_disruptive_allowed_action": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "most_disruptive_allowed_action", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "replacement_method": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "replacement_method", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManagerUpdatePolicy"
+}

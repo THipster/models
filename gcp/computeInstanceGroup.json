@@ -1,0 +1,85 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "named_port": {
+            "resource": "computeInstanceGroup/ComputeInstanceGroupNamedPort", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "named_port", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceGroupNamedPort]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeInstanceGroup/ComputeInstanceGroupTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeInstanceGroupTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "name": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "instances": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "instances", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "network": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "network", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "zone": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "zone", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group", 
+    "cdk_class": "ComputeInstanceGroup", 
+    "cdk_name_key": "name"
+}

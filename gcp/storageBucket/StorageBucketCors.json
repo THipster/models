@@ -1,0 +1,41 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "max_age_seconds": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_age_seconds", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "method": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "method", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "origin": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "origin", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "response_header": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "response_header", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "storage_bucket", 
+    "cdk_class": "StorageBucketCors"
+}

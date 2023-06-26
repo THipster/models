@@ -1,0 +1,69 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "header_matches": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "header_matches", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "metadata_filters": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "metadata_filters", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "query_parameter_matches": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "query_parameter_matches", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches]]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "full_path_match": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "full_path_match", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "ignore_case": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "ignore_case", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "prefix_match": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "prefix_match", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "regex_match": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "regex_match", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherRouteRulesMatchRules"
+}

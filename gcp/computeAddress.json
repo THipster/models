@@ -2,36 +2,29 @@
     "dependencies": {}, 
     "internalObjects": {
         "timeouts": {
-            "resource": "computeNetwork/ComputeNetworkTimeouts", 
+            "resource": "computeAddress/ComputeAddressTimeouts", 
             "optional": true, 
             "defaults": [], 
             "cdk_key": "timeouts", 
-            "var_type": "ComputeNetworkTimeouts", 
+            "var_type": "ComputeAddressTimeouts", 
             "is_list": false, 
             "is_dict": false
-        },
-        "subnetwork": {
-            "resource": "computeSubnetwork",
-            "optional": true,
-            "defaults": [],
-            "var_type": "list[ComputeSubnetwork]",
-            "arg_to_complete": "network"
         }
     }, 
     "attributes": {
-        "auto_create_subnetworks": {
+        "address": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "auto_create_subnetworks", 
-            "var_type": "typing.Union[bool, IResolvable]", 
+            "cdk_key": "address", 
+            "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
-        "delete_default_routes_on_create": {
+        "address_type": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "delete_default_routes_on_create", 
-            "var_type": "typing.Union[bool, IResolvable]", 
+            "cdk_key": "address_type", 
+            "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
@@ -43,14 +36,6 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "enable_ula_internal_ipv6": {
-            "optional": true, 
-            "default": null, 
-            "cdk_key": "enable_ula_internal_ipv6", 
-            "var_type": "typing.Union[bool, IResolvable]", 
-            "is_list": false, 
-            "is_dict": false
-        }, 
         "id": {
             "optional": true, 
             "default": null, 
@@ -59,27 +44,27 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "internal_ipv6_range": {
+        "network": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "internal_ipv6_range", 
+            "cdk_key": "network", 
             "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
-        "mtu": {
+        "network_tier": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "mtu", 
+            "cdk_key": "network_tier", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "prefix_length": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "prefix_length", 
             "var_type": "typing.Union[int, float]", 
-            "is_list": false, 
-            "is_dict": false
-        }, 
-        "network_firewall_policy_enforcement_order": {
-            "optional": true, 
-            "default": null, 
-            "cdk_key": "network_firewall_policy_enforcement_order", 
-            "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
@@ -91,17 +76,33 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "routing_mode": {
+        "purpose": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "routing_mode", 
+            "cdk_key": "purpose", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "region": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "region", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "subnetwork": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "subnetwork", 
             "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }
     }, 
     "cdk_provider": "cdktf_cdktf_provider_google", 
-    "cdk_module": "compute_network", 
-    "cdk_class": "ComputeNetwork", 
+    "cdk_module": "compute_address", 
+    "cdk_class": "ComputeAddress", 
     "cdk_name_key": "name"
 }

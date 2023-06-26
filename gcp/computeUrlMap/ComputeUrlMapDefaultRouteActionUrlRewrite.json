@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "host_rewrite": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "host_rewrite", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "path_prefix_rewrite": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "path_prefix_rewrite", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapDefaultRouteActionUrlRewrite"
+}

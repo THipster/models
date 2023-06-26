@@ -1,0 +1,93 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "bypass_cache_on_request_headers": {
+            "resource": "computeBackendService/ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeaders", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "bypass_cache_on_request_headers", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeBackendServiceCdnPolicyBypassCacheOnRequestHeaders]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "cache_key_policy": {
+            "resource": "computeBackendService/ComputeBackendServiceCdnPolicyCacheKeyPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "cache_key_policy", 
+            "var_type": "ComputeBackendServiceCdnPolicyCacheKeyPolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "negative_caching_policy": {
+            "resource": "computeBackendService/ComputeBackendServiceCdnPolicyNegativeCachingPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "negative_caching_policy", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeBackendServiceCdnPolicyNegativeCachingPolicy]]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "cache_mode": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "cache_mode", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "client_ttl": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "client_ttl", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "default_ttl": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "default_ttl", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "max_ttl": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "max_ttl", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "negative_caching": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "negative_caching", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "serve_while_stale": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "serve_while_stale", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "signed_url_cache_max_age_sec": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "signed_url_cache_max_age_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceCdnPolicy"
+}

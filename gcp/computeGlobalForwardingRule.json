@@ -1,0 +1,133 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "metadata_filters": {
+            "resource": "computeGlobalForwardingRule/ComputeGlobalForwardingRuleMetadataFilters", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "metadata_filters", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeGlobalForwardingRuleMetadataFilters]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeGlobalForwardingRule/ComputeGlobalForwardingRuleTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeGlobalForwardingRuleTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "name": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "target": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "target", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "ip_address": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "ip_address", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "ip_protocol": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "ip_protocol", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "ip_version": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "ip_version", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "labels": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "labels", 
+            "var_type": "typing.Mapping[str]", 
+            "is_list": false, 
+            "is_dict": true
+        }, 
+        "load_balancing_scheme": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "load_balancing_scheme", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "network": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "network", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "port_range": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "port_range", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_ip_ranges": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_ip_ranges", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_global_forwarding_rule", 
+    "cdk_class": "ComputeGlobalForwardingRule", 
+    "cdk_name_key": "name"
+}

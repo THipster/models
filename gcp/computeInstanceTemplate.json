@@ -1,0 +1,221 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "disk": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateDisk", 
+            "optional": false, 
+            "defaults": [], 
+            "cdk_key": "disk", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceTemplateDisk]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "advanced_machine_features": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateAdvancedMachineFeatures", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "advanced_machine_features", 
+            "var_type": "ComputeInstanceTemplateAdvancedMachineFeatures", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "confidential_instance_config": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateConfidentialInstanceConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "confidential_instance_config", 
+            "var_type": "ComputeInstanceTemplateConfidentialInstanceConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "guest_accelerator": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateGuestAccelerator", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "guest_accelerator", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceTemplateGuestAccelerator]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "network_interface": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateNetworkInterface", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "network_interface", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceTemplateNetworkInterface]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "reservation_affinity": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateReservationAffinity", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "reservation_affinity", 
+            "var_type": "ComputeInstanceTemplateReservationAffinity", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "scheduling": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateScheduling", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "scheduling", 
+            "var_type": "ComputeInstanceTemplateScheduling", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "service_account": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateServiceAccount", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "service_account", 
+            "var_type": "ComputeInstanceTemplateServiceAccount", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "shielded_instance_config": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateShieldedInstanceConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "shielded_instance_config", 
+            "var_type": "ComputeInstanceTemplateShieldedInstanceConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeInstanceTemplate/ComputeInstanceTemplateTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeInstanceTemplateTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "machine_type": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "machine_type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "can_ip_forward": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "can_ip_forward", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "instance_description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "instance_description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "labels": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "labels", 
+            "var_type": "typing.Mapping[str]", 
+            "is_list": false, 
+            "is_dict": true
+        }, 
+        "metadata": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "metadata", 
+            "var_type": "typing.Mapping[str]", 
+            "is_list": false, 
+            "is_dict": true
+        }, 
+        "metadata_startup_script": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "metadata_startup_script", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "min_cpu_platform": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "min_cpu_platform", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "name_prefix": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "name_prefix", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "region": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "region", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "resource_policies": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "resource_policies", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "tags": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "tags", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_template", 
+    "cdk_class": "ComputeInstanceTemplate", 
+    "cdk_name_key": "name"
+}

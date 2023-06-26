@@ -1,0 +1,49 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "aggregation_interval": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "aggregation_interval", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "filter_expr": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "filter_expr", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "flow_sampling": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "flow_sampling", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "metadata": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "metadata", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "metadata_fields": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "metadata_fields", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_subnetwork", 
+    "cdk_class": "ComputeSubnetworkLogConfig"
+}

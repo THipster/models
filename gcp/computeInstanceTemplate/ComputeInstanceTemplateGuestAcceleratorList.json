@@ -1,0 +1,33 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "terraform_resource": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "terraform_resource", 
+            "var_type": "IInterpolatingParent", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "terraform_attribute": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "terraform_attribute", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "wraps_set": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "wraps_set", 
+            "var_type": "bool", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_template", 
+    "cdk_class": "ComputeInstanceTemplateGuestAcceleratorList"
+}
