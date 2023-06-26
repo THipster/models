@@ -1,0 +1,27 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "custom_policy": {
+            "resource": "computeBackendService/ComputeBackendServiceLocalityLbPoliciesCustomPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "custom_policy", 
+            "var_type": "ComputeBackendServiceLocalityLbPoliciesCustomPolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "policy": {
+            "resource": "computeBackendService/ComputeBackendServiceLocalityLbPoliciesPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "policy", 
+            "var_type": "ComputeBackendServiceLocalityLbPoliciesPolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {}, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceLocalityLbPolicies"
+}

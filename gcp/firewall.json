@@ -1,0 +1,159 @@
+{
+    "dependencies": {
+        "network": {
+            "resource": "network",
+            "defaults": {}, 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "internalObjects": {
+        "allow": {
+            "resource": "computeFirewall/ComputeFirewallAllow", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "allow", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeFirewallAllow]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "deny": {
+            "resource": "computeFirewall/ComputeFirewallDeny", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "deny", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeFirewallDeny]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "log_config": {
+            "resource": "computeFirewall/ComputeFirewallLogConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "log_config", 
+            "var_type": "ComputeFirewallLogConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeFirewall/ComputeFirewallTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeFirewallTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "destination_ranges": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "destination_ranges", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "direction": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "direction", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "disabled": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "disabled", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "enable_logging": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "enable_logging", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "priority": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "priority", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "source_ranges": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_ranges", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "source_service_accounts": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_service_accounts", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "source_tags": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "source_tags", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "target_service_accounts": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "target_service_accounts", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "target_tags": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "target_tags", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_firewall", 
+    "cdk_class": "ComputeFirewall", 
+    "cdk_name_key": "name"
+}

@@ -1,0 +1,35 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "header_action": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "header_action", 
+            "var_type": "ComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "backend_service": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "backend_service", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "weight": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "weight", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices"
+}

@@ -1,0 +1,60 @@
+{
+    "dependencies": {
+        "url_map": {
+            "resource": "computeUrlMap", 
+            "default": null, 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "internalObjects": {
+        "timeouts": {
+            "resource": "computeTargetHttpProxy/ComputeTargetHttpProxyTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeTargetHttpProxyTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "proxy_bind": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "proxy_bind", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_target_http_proxy", 
+    "cdk_class": "ComputeTargetHttpProxy", 
+    "cdk_name_key": "name"
+}

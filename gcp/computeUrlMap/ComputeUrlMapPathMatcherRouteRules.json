@@ -1,0 +1,62 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "header_action": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesHeaderAction", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "header_action", 
+            "var_type": "ComputeUrlMapPathMatcherRouteRulesHeaderAction", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "match_rules": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesMatchRules", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "match_rules", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeUrlMapPathMatcherRouteRulesMatchRules]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "route_action": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesRouteAction", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "route_action", 
+            "var_type": "ComputeUrlMapPathMatcherRouteRulesRouteAction", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "url_redirect": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherRouteRulesUrlRedirect", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "url_redirect", 
+            "var_type": "ComputeUrlMapPathMatcherRouteRulesUrlRedirect", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "priority": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "priority", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "service": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "service", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherRouteRules"
+}

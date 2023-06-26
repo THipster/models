@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "http_status": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "http_status", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "percentage": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "percentage", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort"
+}

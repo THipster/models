@@ -1,0 +1,65 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "include_host": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "include_host", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "include_http_headers": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "include_http_headers", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "include_named_cookies": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "include_named_cookies", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "include_protocol": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "include_protocol", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "include_query_string": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "include_query_string", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "query_string_blacklist": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "query_string_blacklist", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "query_string_whitelist": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "query_string_whitelist", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendServiceCdnPolicyCacheKeyPolicy"
+}

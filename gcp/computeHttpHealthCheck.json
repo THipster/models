@@ -2,36 +2,21 @@
     "dependencies": {}, 
     "internalObjects": {
         "timeouts": {
-            "resource": "computeNetwork/ComputeNetworkTimeouts", 
+            "resource": "computeHttpHealthCheck/ComputeHttpHealthCheckTimeouts", 
             "optional": true, 
             "defaults": [], 
             "cdk_key": "timeouts", 
-            "var_type": "ComputeNetworkTimeouts", 
+            "var_type": "ComputeHttpHealthCheckTimeouts", 
             "is_list": false, 
             "is_dict": false
-        },
-        "subnetwork": {
-            "resource": "computeSubnetwork",
-            "optional": true,
-            "defaults": [],
-            "var_type": "list[ComputeSubnetwork]",
-            "arg_to_complete": "network"
         }
     }, 
     "attributes": {
-        "auto_create_subnetworks": {
+        "check_interval_sec": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "auto_create_subnetworks", 
-            "var_type": "typing.Union[bool, IResolvable]", 
-            "is_list": false, 
-            "is_dict": false
-        }, 
-        "delete_default_routes_on_create": {
-            "optional": true, 
-            "default": null, 
-            "cdk_key": "delete_default_routes_on_create", 
-            "var_type": "typing.Union[bool, IResolvable]", 
+            "cdk_key": "check_interval_sec", 
+            "var_type": "typing.Union[int, float]", 
             "is_list": false, 
             "is_dict": false
         }, 
@@ -43,11 +28,19 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "enable_ula_internal_ipv6": {
+        "healthy_threshold": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "enable_ula_internal_ipv6", 
-            "var_type": "typing.Union[bool, IResolvable]", 
+            "cdk_key": "healthy_threshold", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "host": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "host", 
+            "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
@@ -59,27 +52,11 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "internal_ipv6_range": {
+        "port": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "internal_ipv6_range", 
-            "var_type": "str", 
-            "is_list": false, 
-            "is_dict": false
-        }, 
-        "mtu": {
-            "optional": true, 
-            "default": null, 
-            "cdk_key": "mtu", 
+            "cdk_key": "port", 
             "var_type": "typing.Union[int, float]", 
-            "is_list": false, 
-            "is_dict": false
-        }, 
-        "network_firewall_policy_enforcement_order": {
-            "optional": true, 
-            "default": null, 
-            "cdk_key": "network_firewall_policy_enforcement_order", 
-            "var_type": "str", 
             "is_list": false, 
             "is_dict": false
         }, 
@@ -91,17 +68,33 @@
             "is_list": false, 
             "is_dict": false
         }, 
-        "routing_mode": {
+        "request_path": {
             "optional": true, 
             "default": null, 
-            "cdk_key": "routing_mode", 
+            "cdk_key": "request_path", 
             "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeout_sec": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "timeout_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "unhealthy_threshold": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "unhealthy_threshold", 
+            "var_type": "typing.Union[int, float]", 
             "is_list": false, 
             "is_dict": false
         }
     }, 
     "cdk_provider": "cdktf_cdktf_provider_google", 
-    "cdk_module": "compute_network", 
-    "cdk_class": "ComputeNetwork", 
+    "cdk_module": "compute_http_health_check", 
+    "cdk_class": "ComputeHttpHealthCheck", 
     "cdk_name_key": "name"
 }

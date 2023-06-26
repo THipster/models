@@ -1,0 +1,36 @@
+{
+    "dependencies": {
+        "instance_template": {
+            "resource": "computeInstanceTemplate",
+            "default": null, 
+            "cdk_key": "instance_template", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "internalObjects": {
+        "target_size": {
+            "resource": "computeInstanceGroupManager/ComputeInstanceGroupManagerVersionTargetSize", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "target_size", 
+            "var_type": "ComputeInstanceGroupManagerVersionTargetSize", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManagerVersion"
+}
