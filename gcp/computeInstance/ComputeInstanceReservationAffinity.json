@@ -1,0 +1,27 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "specific_reservation": {
+            "resource": "computeInstance/ComputeInstanceReservationAffinitySpecificReservation", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "specific_reservation", 
+            "var_type": "ComputeInstanceReservationAffinitySpecificReservation", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "type": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "type", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance", 
+    "cdk_class": "ComputeInstanceReservationAffinity"
+}

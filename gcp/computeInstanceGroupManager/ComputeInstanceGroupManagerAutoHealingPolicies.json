@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "health_check": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "health_check", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "initial_delay_sec": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "initial_delay_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManagerAutoHealingPolicies"
+}

@@ -1,24 +1,189 @@
 {
-    "dependencies": {},
+    "dependencies": {}, 
     "internalObjects": {
+        "autoclass": {
+            "resource": "storageBucket/StorageBucketAutoclass", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "autoclass", 
+            "var_type": "StorageBucketAutoclass", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
         "cors": {
-            "resource" : "bucket_cors",
-            "var_type": "list[StorageBucketCors]",
-            "default": {}
-
+            "resource": "storageBucket/StorageBucketCors", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "cors", 
+            "var_type": "typing.Union[IResolvable, typing.List[StorageBucketCors]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "custom_placement_config": {
+            "resource": "storageBucket/StorageBucketCustomPlacementConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "custom_placement_config", 
+            "var_type": "StorageBucketCustomPlacementConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "encryption": {
+            "resource": "storageBucket/StorageBucketEncryption", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "encryption", 
+            "var_type": "StorageBucketEncryption", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "lifecycle_rule": {
+            "resource": "storageBucket/StorageBucketLifecycleRule", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "lifecycle_rule", 
+            "var_type": "typing.Union[IResolvable, typing.List[StorageBucketLifecycleRule]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "logging": {
+            "resource": "storageBucket/StorageBucketLogging", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "logging", 
+            "var_type": "StorageBucketLogging", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "retention_policy": {
+            "resource": "storageBucket/StorageBucketRetentionPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "retention_policy", 
+            "var_type": "StorageBucketRetentionPolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "storageBucket/StorageBucketTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "StorageBucketTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "versioning": {
+            "resource": "storageBucket/StorageBucketVersioning", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "versioning", 
+            "var_type": "StorageBucketVersioning", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "website": {
+            "resource": "storageBucket/StorageBucketWebsite", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "website", 
+            "var_type": "StorageBucketWebsite", 
+            "is_list": false, 
+            "is_dict": false
         }
-    },
-    "attributes":{
-        "region": {
-            "optional": true,
-            "default": "euw",
-            "cdk_key": "location",
-            "var_type": "str"
+    }, 
+    "attributes": {
+        "location": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "location", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "name": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "default_event_based_hold": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "default_event_based_hold", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "force_destroy": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "force_destroy", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "labels": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "labels", 
+            "var_type": "typing.Mapping[str]", 
+            "is_list": false, 
+            "is_dict": true
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "public_access_prevention": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "public_access_prevention", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "requester_pays": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "requester_pays", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "storage_class": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "storage_class", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "uniform_bucket_level_access": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "uniform_bucket_level_access", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
         }
-    },
-    "cdk_name_key": "name",
-
-    "cdk_provider":"cdktf_cdktf_provider_google",
-    "cdk_module":"storage_bucket",
-    "cdk_class":"StorageBucket"
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "storage_bucket", 
+    "cdk_class": "StorageBucket", 
+    "cdk_name_key": "name"
 }

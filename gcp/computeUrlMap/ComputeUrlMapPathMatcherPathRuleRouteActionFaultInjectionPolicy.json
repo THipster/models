@@ -1,0 +1,27 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "abort": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "abort", 
+            "var_type": "ComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "delay": {
+            "resource": "computeUrlMap/ComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "delay", 
+            "var_type": "ComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {}, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_url_map", 
+    "cdk_class": "ComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy"
+}

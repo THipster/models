@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "fixed": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "fixed", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "percent": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "percent", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManagerVersionTargetSize"
+}

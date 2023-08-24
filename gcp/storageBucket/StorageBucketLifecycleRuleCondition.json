@@ -1,0 +1,97 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "age": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "age", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "created_before": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "created_before", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "custom_time_before": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "custom_time_before", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "days_since_custom_time": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "days_since_custom_time", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "days_since_noncurrent_time": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "days_since_noncurrent_time", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "matches_prefix": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "matches_prefix", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "matches_storage_class": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "matches_storage_class", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "matches_suffix": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "matches_suffix", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "noncurrent_time_before": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "noncurrent_time_before", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "num_newer_versions": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "num_newer_versions", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "with_state": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "with_state", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "storage_bucket", 
+    "cdk_class": "StorageBucketLifecycleRuleCondition"
+}

@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "kms_key_self_link": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "kms_key_self_link", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "kms_key_service_account": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "kms_key_service_account", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_template", 
+    "cdk_class": "ComputeInstanceTemplateDiskSourceSnapshotEncryptionKey"
+}

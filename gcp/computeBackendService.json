@@ -1,0 +1,248 @@
+{
+    "dependencies": {
+        "health_checks": {
+            "resource": "computeHttpHealthCheck", 
+            "optional": true, 
+            "defaults": [{
+                
+            }], 
+            "cdk_key": "health_checks", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }}, 
+    "internalObjects": {
+        "backend": {
+            "resource": "computeBackendService/ComputeBackendServiceBackend", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "backend", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeBackendServiceBackend]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "cdn_policy": {
+            "resource": "computeBackendService/ComputeBackendServiceCdnPolicy", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "cdn_policy", 
+            "var_type": "ComputeBackendServiceCdnPolicy", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "circuit_breakers": {
+            "resource": "computeBackendService/ComputeBackendServiceCircuitBreakers", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "circuit_breakers", 
+            "var_type": "ComputeBackendServiceCircuitBreakers", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "consistent_hash": {
+            "resource": "computeBackendService/ComputeBackendServiceConsistentHash", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "consistent_hash", 
+            "var_type": "ComputeBackendServiceConsistentHash", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "iap": {
+            "resource": "computeBackendService/ComputeBackendServiceIap", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "iap", 
+            "var_type": "ComputeBackendServiceIap", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "locality_lb_policies": {
+            "resource": "computeBackendService/ComputeBackendServiceLocalityLbPolicies", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "locality_lb_policies", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeBackendServiceLocalityLbPolicies]]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "log_config": {
+            "resource": "computeBackendService/ComputeBackendServiceLogConfig", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "log_config", 
+            "var_type": "ComputeBackendServiceLogConfig", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "outlier_detection": {
+            "resource": "computeBackendService/ComputeBackendServiceOutlierDetection", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "outlier_detection", 
+            "var_type": "ComputeBackendServiceOutlierDetection", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "security_settings": {
+            "resource": "computeBackendService/ComputeBackendServiceSecuritySettings", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "security_settings", 
+            "var_type": "ComputeBackendServiceSecuritySettings", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeouts": {
+            "resource": "computeBackendService/ComputeBackendServiceTimeouts", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "timeouts", 
+            "var_type": "ComputeBackendServiceTimeouts", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "affinity_cookie_ttl_sec": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "affinity_cookie_ttl_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "compression_mode": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "compression_mode", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "connection_draining_timeout_sec": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "connection_draining_timeout_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "custom_request_headers": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "custom_request_headers", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "custom_response_headers": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "custom_response_headers", 
+            "var_type": "typing.List[str]", 
+            "is_list": true, 
+            "is_dict": false
+        }, 
+        "description": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "description", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "edge_security_policy": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "edge_security_policy", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "enable_cdn": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "enable_cdn", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        },
+        "id": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "id", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "load_balancing_scheme": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "load_balancing_scheme", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "locality_lb_policy": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "locality_lb_policy", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "port_name": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "port_name", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "project": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "project", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "protocol": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "protocol", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "security_policy": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "security_policy", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "session_affinity": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "session_affinity", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "timeout_sec": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "timeout_sec", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_backend_service", 
+    "cdk_class": "ComputeBackendService", 
+    "cdk_name_key": "name"
+}

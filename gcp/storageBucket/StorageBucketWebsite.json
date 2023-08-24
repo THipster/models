@@ -1,0 +1,25 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "main_page_suffix": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "main_page_suffix", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "not_found_page": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "not_found_page", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "storage_bucket", 
+    "cdk_class": "StorageBucketWebsite"
+}

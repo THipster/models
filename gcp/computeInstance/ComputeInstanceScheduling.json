@@ -1,0 +1,67 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {
+        "node_affinities": {
+            "resource": "computeInstance/ComputeInstanceSchedulingNodeAffinities", 
+            "optional": true, 
+            "defaults": [], 
+            "cdk_key": "node_affinities", 
+            "var_type": "typing.Union[IResolvable, typing.List[ComputeInstanceSchedulingNodeAffinities]]", 
+            "is_list": true, 
+            "is_dict": false
+        }
+    }, 
+    "attributes": {
+        "automatic_restart": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "automatic_restart", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "instance_termination_action": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "instance_termination_action", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "min_node_cpus": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "min_node_cpus", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "on_host_maintenance": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "on_host_maintenance", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "preemptible": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "preemptible", 
+            "var_type": "typing.Union[bool, IResolvable]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "provisioning_model": {
+            "optional": true, 
+            "default": null, 
+            "cdk_key": "provisioning_model", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance", 
+    "cdk_class": "ComputeInstanceScheduling"
+}

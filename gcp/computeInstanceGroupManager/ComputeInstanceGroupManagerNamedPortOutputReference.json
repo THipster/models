@@ -1,0 +1,41 @@
+{
+    "dependencies": {}, 
+    "internalObjects": {}, 
+    "attributes": {
+        "terraform_resource": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "terraform_resource", 
+            "var_type": "IInterpolatingParent", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "terraform_attribute": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "terraform_attribute", 
+            "var_type": "str", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "complex_object_index": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "complex_object_index", 
+            "var_type": "typing.Union[int, float]", 
+            "is_list": false, 
+            "is_dict": false
+        }, 
+        "complex_object_is_from_set": {
+            "optional": false, 
+            "default": null, 
+            "cdk_key": "complex_object_is_from_set", 
+            "var_type": "bool", 
+            "is_list": false, 
+            "is_dict": false
+        }
+    }, 
+    "cdk_provider": "cdktf_cdktf_provider_google", 
+    "cdk_module": "compute_instance_group_manager", 
+    "cdk_class": "ComputeInstanceGroupManagerNamedPortOutputReference"
+}
